@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('administrator.index');
+    return view('administrator.laboratory.index');
 });

@@ -39,7 +39,6 @@
             </div>
             <!-- /page header -->
 
-
             <!-- Content area -->
             <div class="content">            
                 {{-- Write Your Content Here --}}

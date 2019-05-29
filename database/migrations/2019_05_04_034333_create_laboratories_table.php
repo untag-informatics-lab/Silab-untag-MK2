@@ -17,6 +17,7 @@ class CreateLaboratoriesTable extends Migration
             $table->bigIncrements('id');
             $table->char('name', 50);
             $table->string('location', 100)->nullable();
+            $table->string('picture',150)->nullable();
             $table->timestamps();
         });
     }

@@ -2,7 +2,7 @@
 @extends('administrator._core.base')
 
 @section('title')
-  Dashboard
+  Course Edit
 @endsection
 
 @section('corejs')
@@ -31,8 +31,8 @@
                     <div class="d-flex">
                         <div class="breadcrumb">
 							<a href="{{ url('') }}" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> {{ config('app.name') }}</a>
-                            <a href="#" class="breadcrumb-item">Laboratory</a>
-                            <span class="breadcrumb-item active">Create Laboratory</span>
+                            <a href="#" class="breadcrumb-item">Course</a>
+                            <span class="breadcrumb-item active">Edit Course</span>
                             
 						</div>
 
@@ -54,7 +54,7 @@
 				<!-- Form inputs -->
 				<div class="card">
 					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Create New Laboratory</h5>						
+						<h5 class="card-title">Edit Course</h5>						
 					</div>
 
 					<div class="card-body">
@@ -67,23 +67,9 @@
 								<legend class="text-uppercase font-size-sm font-weight-bold">make sure you're fill in all required fields</legend>
 
 								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Laboratory Name</label>
+									<label class="col-form-label col-lg-2">Course Name</label>
 									<div class="col-lg-10">
-										<input type="text" class="form-control" name="laboratory-name" placeholder="ex: Pengembangan Teknologi Web" required>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Laboratory Location</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control" name="laboratory-location" placeholder="ex: Gedung Graha Wiyata lt.02" required>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Picture</label>
-									<div class="col-lg-10">
-										<input type="file" class="form-control" name="laboratory-picture" required>
+										<input type="text" class="form-control" name="course-name" placeholder="ex: Pengembangan Teknologi Web" required>
 									</div>
 								</div>
                                 <button type="submit" class="btn btn-success"><i class="icon-floppy-disk mr-2"></i>Save</button>

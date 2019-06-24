@@ -61,16 +61,11 @@
                         <span>Laboratory</span>
                     </a>
                 </li>
-                <li class="nav-item nav-item-submenu">
+                <li class="nav-item">
                     <a href="#" class="nav-link">
                         <i class="icon-book "></i>
                         <span>Course</span>
-                    </a>
-
-                    <ul class="nav nav-group-sub" data-submenu-title="Themes">
-                        <li class="nav-item"><a href="#" class="nav-link active">Sub Menu 1</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link ">Sub Menu 2</a></li>
-                    </ul>
+                    </a>                    
                 </li>
                 <li class="nav-item nav-item-submenu">
                     <a href="#" class="nav-link">

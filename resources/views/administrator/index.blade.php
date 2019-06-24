@@ -34,7 +34,7 @@
                         </div>
 
                         <a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
-                    </div>                
+                    </div>
                 </div>
             </div>
             <!-- /page header -->

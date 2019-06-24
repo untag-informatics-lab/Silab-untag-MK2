@@ -69,21 +69,21 @@
 								<div class="form-group row">
 									<label class="col-form-label col-lg-2">Laboratory Name</label>
 									<div class="col-lg-10">
-										<input type="text" class="form-control" name="laboratory-name" placeholder="ex: Desain Komputer">
+										<input type="text" class="form-control" name="laboratory-name" placeholder="ex: Desain Komputer" required>
 									</div>
 								</div>
 
 								<div class="form-group row">
 									<label class="col-form-label col-lg-2">Laboratory Location</label>
 									<div class="col-lg-10">
-										<input type="text" class="form-control" name="laboratory-location" placeholder="ex: Gedung Graha Wiyata lt.02">
+										<input type="text" class="form-control" name="laboratory-location" placeholder="ex: Gedung Graha Wiyata lt.02" required>
 									</div>
 								</div>
 
 								<div class="form-group row">
 									<label class="col-form-label col-lg-2">Picture</label>
 									<div class="col-lg-10">
-										<input type="file" class="form-control" name="laboratory-picture">
+										<input type="file" class="form-control" name="laboratory-picture" required>
 									</div>
 								</div>
                                 <button type="submit" class="btn btn-success"><i class="icon-floppy-disk mr-2"></i>Save</button>

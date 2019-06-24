@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('administrator.laboratory.create');
+    return view('administrator.laboratory.detail');
 });
